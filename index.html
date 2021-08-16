@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,58 +29,15 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <form id="form">
-        <div class="row">
-          <ul class="list-group list-group-flush col-2 m-0 p-0" id="ul1">
-            <li class="list-group-item">9 am</li>
-            <li class="list-group-item">10 am</li>
-            <li class="list-group-item">11 am</li>
-            <li class="list-group-item">12 pm</li>
-            <li class="list-group-item">1 pm</li>
-            <li class="list-group-item">2 pm</li>
-            <li class="list-group-item">3 pm</li>
-            <li class="list-group-item">4 pm</li>
-            <li class="list-group-item">5 pm</li>
-            <li class="list-group-item">6 pm</li>
-          </ul>
+    <main class="container">
 
-
-          <ul class="list-group bg-green col-8 m-0 p-0">
-            <input type="text" id="9am" class="list-group-item" name="fname">
-            <input type="text" id="10am" class="list-group-item" name="fname">
-            <input type="text" id="11am" class="list-group-item" name="fname">
-            <input type="text" id="12pm" class="list-group-item" name="fname">
-            <input type="text" id="1pm" class="list-group-item" name="fname">
-            <input type="text" id="2pm" class="list-group-item" name="fname">
-            <input type="text" id="3pm" class="list-group-item" name="fname">
-            <input type="text" id="4pm" class="list-group-item" name="fname">
-            <input type="text" id="5pm" class="list-group-item" name="fname">
-            <input type="text" id="6pm" class="list-group-item" name="fname">
-          </ul>
-
-
-          <ul class="list-group col-2 m-0 p-0">
-            <button type="submit" class="list-group-item btn btn-success" id="9am">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="10am">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="11am">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="12pm">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="1pm">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="2pm">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="3pm">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="4pmm">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="5pm">Save</button>
-            <button type="submit" class="list-group-item btn btn-success" id="6pm">Save</button>
-          </ul>
-        </div>
-      </form>
-    </div>
+    </main>
 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
