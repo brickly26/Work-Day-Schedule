@@ -43,3 +43,6 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+## Deployed Version
+
+[https://brickly26.github.io/Work-Day-Schedule/](https://brickly26.github.io/Work-Day-Schedule/)
